@@ -2,7 +2,9 @@
     <v-footer height="auto" :style="'width: '+ width">
         <v-layout justify-center row wrap>
             <v-card-text class="pt-0 about">
-                Periodicity, the tendency of elements to form trends that repeat over intervals, is one of the most beautiful concepts in chemistry. This open source application graphs and animates periodic data with the aim of making the concept of periodicity easier to grasp. It also serves as a fast tool for students and chemists to quickly view information about elements, such as electron configurations.
+                <a
+                    href="https://ptable.netlify.com/"
+                >Periodicity</a>, the tendency of elements to form trends that repeat over intervals, is one of the most beautiful concepts in chemistry. This open source application graphs and animates periodic data with the aim of making the concept of periodicity easier to grasp. It also serves as a fast tool for students and chemists to quickly view information about elements, such as electron configurations.
             </v-card-text>
             <v-flex primary lighten-2 py-3 text-xs-center xs12 class="copy">
                 &copy;{{new Date().getFullYear()}} -
