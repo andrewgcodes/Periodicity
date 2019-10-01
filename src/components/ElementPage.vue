@@ -97,7 +97,7 @@
 									<p>
 										<span>{{element.vanDelWaalsRadius || 'unknown'}}
 											<span v-if="element.vanDelWaalsRadius">pm</span>
-										</span><br /> Van Del Waals Radius
+										</span><br /> Van Der Waals Radius
 									</p>
 								</div>
 							</v-tab-item>
